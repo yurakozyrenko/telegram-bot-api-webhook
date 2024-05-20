@@ -1,2 +1,6 @@
+version: "2"
 authtoken: 2fI31GclvD4ipuNK5jzFXSDFZEf_7zzD9rQy4KdgWts6eJe8B
-web_addr: 0.0.0.0:4040
+tunnels:
+  http:
+    port: http
+    addr: api:80
